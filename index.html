@@ -6,6 +6,7 @@
 -->
 <html>
   <head>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png" />
     <title>Dhvanil Shah</title>
     <meta charset="utf-8" />
     <meta
@@ -19,7 +20,7 @@
     <header id="header">
       <div class="inner">
         <a href="#" class="image avatar"
-          ><img src="images/avatar.jpg" alt=""
+          ><img src="./images/avatar.jpeg" alt=""
         /></a>
         <h1>
           <strong>Dhvanil Shah</strong><br />
@@ -59,26 +60,142 @@
         </ul> -->
       </section>
 
-      <section id="one">
+      <section id="news">
         <header class="major">
           <h2>
             News
           </h2>
         </header>
-        <p>
-          Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
-          lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis
-          tortor primis integer massa adipiscing id nisi accumsan pellentesque
-          commodo blandit enim arcu non at amet id arcu magna. Accumsan orci
-          faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque
-          cubilia.
-        </p>
-        <ul class="actions">
-          <li><a href="#" class="button">Learn More</a></li>
+        <!-- CUSTOM STYLE FOR LIST -->
+        <style>
+          .timeline {
+            /* list-style-type: none; */
+            /* list-style-position: outside; */
+            list-style: none;
+            /* margin-left: 0;
+            padding-left: 0; */
+          }
+
+          .timeline li {
+            padding-left: 1em;
+            text-indent: -2.5em;
+          }
+
+          .y2020::before {
+            content: "2020";
+            padding-right: 5px;
+            font-weight: bold;
+          }
+
+          .y2019::before {
+            content: "2019";
+            padding-right: 5px;
+            font-weight: bold;
+          }
+
+          .y2018::before {
+            content: "2018";
+            padding-right: 5px;
+            font-weight: bold;
+          }
+
+          .y2017::before {
+            content: "2017";
+            padding-right: 5px;
+            font-weight: bold;
+          }
+
+          .y2016::before {
+            content: "2016";
+            padding-right: 5px;
+            font-weight: bold;
+          }
+        </style>
+
+        <ul class="timeline">
+          <li class="y2020">
+            Working on creating an Open-Source Educational Kit aimed at teaching
+            students the fundamentals of IOT, Hydroponics, and Urban Food
+            Production for Fighting Food Insecurity.
+          </li>
+          <li class="y2020">
+            Launched my first solo iOS Applicaton: The
+            <a href="https://apps.apple.com/us/app/soccoa-media/id1493868264"
+              >Soccoa Media App</a
+            >
+            for Sports News.
+          </li>
+          <li class="y2019">
+            I recieved the
+            <a
+              href="https://cooper.edu/engineering/news/dr-barry-l-shoop-named-new-engineering-dean"
+              >Cooper Union Engineering Dean's Grant</a
+            >
+            to open-source the work of the Cooper Union Sustainale Agriculture
+            Project in partnership with
+            <a href="https://www.teensforfoodjustice.org/"
+              >Teens for Food Justice</a
+            >.
+          </li>
+          <li class="y2019">
+            My capstone project,
+            <a href="./docs/07.08_Hiding from the Eyes of the City.pdf"
+              >Hiding from the Eyes of the City</a
+            >, was accepted into the
+            <a href="https://eyesofthecity.net/"
+              >Shenzhen Bi-City Biennale of Urbanism\Architecture</a
+            >.
+          </li>
+          <li class="y2019">
+            I recieved the
+            <a
+              hre="https://cooper.edu/academics/research-fellowships/cooper-union-grant-program/2019"
+              >Cooper Union President's Grant </a
+            >to fund the Cooper Union Sustainale Agriculture Project's research.
+          </li>
+          <li class="y2019">
+            I initated the
+            <a href="https://www.autonomylab.nyc/cusap"
+              >Cooper Union Sustainale Agriculture Project</a
+            >
+            within
+            <a href="https://www.autonomylab.nyc/">The Autonomy Lab</a> under
+            <a href="https://cooper.edu/academics/people/neveen-shlayan"
+              >Dr. Neveen Shalyan</a
+            >
+            and
+            <a href="https://cooper.edu/architecture/people/austin-wade-smith"
+              >Austin Wade Smith</a
+            >.
+          </li>
+          <li class="y2018">
+            I joined
+            <a href="https://www.oystertracker.com/">Oyster Tracker</a> as a
+            Software Engineering Intern where I worked on a Full-Stack Team
+            Developing a
+            <a href="https://blog.oystertracker.com/blog/shellfish-regulations"
+              >Farm-to-Table Traceability
+            </a>
+            Solution.
+          </li>
+          <li class="y2017">
+            I joined
+            <a href="https://www.peekooysters.com/">Peeko Oysters</a> as a
+            Software Engineering Intern where I created a Serverless GIS
+            Application for Tracking and Managing Inventory.
+          </li>
+          <li class="y2016">
+            I won the
+            <a
+              href="https://spectrumlocalnews.com/tx/austin/news/2016/03/5/staten-island-student-win-congressional-app-challenge"
+              >Congressional App Challenge</a
+            >
+            under Congressman Dan Donnovan.
+          </li>
         </ul>
       </section>
 
-      <!-- Two -->
+      <!-- Recent Work -->
       <section id="two">
         <h2>Recent Work</h2>
         <div class="row">
@@ -86,35 +203,35 @@
             <a href="images/fulls/01.jpg" class="image fit thumb"
               ><img src="images/thumbs/01.jpg" alt=""
             /></a>
-            <h3>Magna sed consequat tempus</h3>
+            <h3>Deep Plant Disease Detection</h3>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
             <a href="images/fulls/02.jpg" class="image fit thumb"
               ><img src="images/thumbs/02.jpg" alt=""
             /></a>
-            <h3>Ultricies lacinia interdum</h3>
+            <h3>Hiding from the Eyes of the City</h3>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
             <a href="images/fulls/03.jpg" class="image fit thumb"
               ><img src="images/thumbs/03.jpg" alt=""
             /></a>
-            <h3>Tortor metus commodo</h3>
+            <h3>disc.cool</h3>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
             <a href="images/fulls/04.jpg" class="image fit thumb"
               ><img src="images/thumbs/04.jpg" alt=""
             /></a>
-            <h3>Quam neque phasellus</h3>
+            <h3>Soccoa Media</h3>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
             <a href="images/fulls/05.jpg" class="image fit thumb"
               ><img src="images/thumbs/05.jpg" alt=""
             /></a>
-            <h3>Nunc enim commodo aliquet</h3>
+            <h3>Mycelium</h3>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
@@ -130,8 +247,71 @@
         </ul>
       </section>
 
+      <!-- Websites I've Made -->
+      <section id="websites">
+        <header class="major">
+          <h3>
+            Fun Websites
+          </h3>
+        </header>
+        <p>
+          I really enjoy making websites as a hobby and purchasing cool domain
+          names!
+        </p>
+        <!-- CUSTOM STYLE FOR LIST -->
+        <style>
+          .timeline {
+            /* list-style-type: none; */
+            /* list-style-position: outside; */
+            list-style: none;
+            /* margin-left: 0;
+            padding-left: 0; */
+          }
+
+          .timeline li {
+            padding-left: 1em;
+            text-indent: -2.5em;
+          }
+
+          .kelly::before {
+            content: "👩‍🎤";
+            padding-right: 5px;
+          }
+
+          .climem::before {
+            content: "🌎";
+            padding-right: 5px;
+          }
+
+          .peeko::before {
+            content: "🦪";
+            padding-right: 5px;
+          }
+
+          .autonomy::before {
+            content: "🤖";
+            padding-right: 5px;
+          }
+        </style>
+
+        <ul class="timeline">
+          <li class="climem">
+            <a href="https://climateemergency.nyc/">climateemergency.nyc</a>
+          </li>
+          <li class="kelly">
+            <a href="https://kelly.cool/">kelly.cool</a>
+          </li>
+          <li class="peeko">
+            <a href="https://www.peekooysters.com/">peekooysters.com</a>
+          </li>
+          <li class="autonomy">
+            <a href=" https://www.autonomylab.nyc/">autonomylab.nyc</a>
+          </li>
+        </ul>
+      </section>
+
       <!-- Three -->
-      <section id="three">
+      <!-- <section id="three">
         <h2>Get In Touch</h2>
         <p>
           Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
@@ -192,10 +372,10 @@
             </ul>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <!-- Four -->
-      <!--
+      <!-- Four
+     
 					<section id="four">
 						<h2>Elements</h2>
 
@@ -309,8 +489,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									</ul>
 								</div>
 							</div>
-						</section>
-
+						</section> -->
+      <!--
 						<section>
 							<h4>Table</h4>
 							<h5>Default</h5>
@@ -511,7 +691,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 					</section>
 				--></div>
-
     <!-- Footer -->
     <footer id="footer">
       <div class="inner">
@@ -530,11 +709,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
               ><span class="label">Github</span></a
             >
           </li>
-          <!-- <li>
-            <a href="#" class="icon brands fa-web"
-              ><span class="label">Dribbble</span></a
-            >
-          </li> -->
+
           <li>
             <a href="mailto:shah3@cooper.edu" class="icon solid fa-envelope"
               ><span class="label">Email</span></a
